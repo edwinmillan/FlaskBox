@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+{% block content %}
+<h1>Dns Lookup</h1>
+<hr>
+<form action="" method="post" name="dns_lookup">
+    {{ form.hidden_tag() }}
+    Hostname:
+    <br>
+    {{ form.hostname(size=30) }}
+    <input type="submit" value="Lookup"></p>
+</form>
+{% endblock %}
