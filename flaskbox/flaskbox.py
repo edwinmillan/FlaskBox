@@ -50,6 +50,7 @@ def geoip_lookup():
                            intent='Geoip',
                            form=form)
 
+
 def main():
     app.run(host='0.0.0.0', debug=True)
 
